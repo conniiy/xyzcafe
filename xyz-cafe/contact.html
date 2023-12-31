@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>XYZ Cafe</title>
+    <meta
+      name="description"
+      content=""
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="" />
+    <meta
+      property="og:url"
+      content=""
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta
+      property="og:description"
+      content=""
+    />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content=""
+    />
+    <meta
+      name="twitter:image:src"
+      content=""
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- fontawesome -->
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+
+
+
+
+  <body class="js_body l_page_body">
+    <header class="page_header js_header">
+    
+      
+      <h1 class="page_header-logo">
+        <a href="" class="l_header-logo-link">
+          <img src="./img/header-logo.webp" alt="" class="l_header-logo-img" width="666" height="143">
+        </a>
+      </h1>
+      <nav class="l_header-nav page_header-nav js_navigation">
+        <ul class="l_header-nav_list page_header-nav_list">
+          <li class="l_header-nav_item page_header-nav_item">
+            <a href="index.html" class="l_header-nav_link page_header-nav_link">TOP</a>
+          </li>
+          <li class="l_header-nav_item page_header-nav_item">
+            <a href="menu.html" class="l_header-nav_link page_header-nav_link">MENU</a>
+          </li>
+          <li class="l_header-nav_item page_header-nav_item">
+            <a href="contact.html" class="l_header-nav_link page_header-nav_link">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="m_hamburger page_hamburger js_hamburger">
+        <span class="m_hamburger-bar page_hamburger-bar"></span>
+        <span class="m_hamburger-bar page_hamburger-bar"></span>
+        <span class="m_hamburger-bar page_hamburger-bar"></span>
+      </button>
+
+      
+    </header>
+
+    
+
+    <main class="l_main">
+      <div class="l_contents">
+        <div class="l_container-sm">
+          <div class="contact_section">
+          <div class="m_section_title">
+            <h2 class="m_section_title">CONTACT</h2>
+            <p class="m_section_title_sub">お問い合わせ</p>
+          </div>
+          <form action="" class="contact_form">
+            <dl class="contact_form_list">
+
+
+              <dt class="contact_form_heading">
+                お名前
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="text" class="contact_form_input" />
+              </dd>
+
+              <dt class="contact_form_heading">
+                お名前 (フリガナ)
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="text" class="contact_form_input" />
+              </dd>
+
+              <dt class="contact_form_heading">
+                電話番号
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="tel" class="contact_form_input" />
+              </dd>
+
+              <dt class="contact_form_heading">
+                メールアドレス
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="email" class="contact_form_input" />
+              </dd>
+
+              <dt class="contact_form_heading">
+                お問い合わせ項目
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <ul class="contact_form_radio-list">
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="1"
+                      class="contact_form_radio"
+                      checked
+                    /><label for="1" class="contact_form_label">店舗利用について（貸切等）</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="2"
+                      class="contact_form_radio"
+                    /><label for="2" class="contact_form_label">メニューについて（アレルギー等）</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="3"
+                      class="contact_form_radio"
+                    /><label for="3" class="contact_form_label">営業日について</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="4"
+                      class="contact_form_radio"
+                    /><label for="4" class="contact_form_label">その他</label>
+                  </li>
+                </ul>
+              </dd>
+
+              <dt class="contact_form_heading">
+                お問い合わせ内容
+                <span class="contact_form_required">必須</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <textarea
+                  class="contact_form_textarea"
+                  placeholder="ご自由にご記入ください"
+                ></textarea>
+              </dd>
+
+            </dl>
+
+            <div class="m_contact_btn_wrapper contact_page_btn js_menu_btn">
+              <a href="" class="m_contact_btn m_btn_move">
+                送信する
+              </a>
+            </div>
+          </div>
+          </form>
+        </div>
+        <!-- /.l_container-sm -->
+      </div>
+      <!-- /.l_contents -->
+    </main>
+
+  </body>
+</html>
